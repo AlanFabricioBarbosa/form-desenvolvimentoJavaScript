@@ -1,0 +1,41 @@
+body {
+    background-color: #999;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    margin: 150px 0;
+}
+
+.form-container form {
+    max-width: 80%;
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    padding: 36px 64px;
+    box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.8);
+}
+
+.text-area{
+    margin: 24px 0;
+}
+
+.text-area label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 24px;
+}
+
+.text-area input {
+    background-color: #FFF;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06);
+    width: 100%;
+    border: none;
+    font-size: 24px;
+    padding: 24px;
+    box-sizing: border-box;
+}
+
+.error {
+    color: #FF0000;
+}

@@ -10,7 +10,44 @@
     <title>Form - Desenvolvimento JavaScript</title>
 </head>
 <body>
-    
+    <main>
+        <section class="form-container">
+            <form id="form">
+                <div class="text-area">
+                    <label for="input_name">Nome:</label>
+                    <input
+                        id="input_name"
+                    type="text"
+                    name="name"
+                    placeholder="Maria Silva"
+                    required
+                />
+                <div id="nameError" class="error"></div>
+                </div>
+                <div class="text-area">
+                    <label for="input_email">Email:</label>
+                    <input
+                    id="input_email"
+                    type="text"
+                    name="email"
+                    placeholder="maria@gmail.com"
+                    required
+                />
+                <div id="emailError" class="error"></div>
+                </div>
+                <button
+                    id="submitBtn"
+                    form="form"
+                    type="submit"
+                    value="submit"
+                    disabled
+                >
+                    Enviar mensagem
+                </button>
+            </form>
+        </section>
+    </main>
+
     <script src="./assets/js/index.js"></script>
 </body>
 </html>
